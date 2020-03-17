@@ -2,7 +2,7 @@
   "name": "algosArrayDiffs",
   "version": "1.0.0",
   "description": "",
-  "main": "algosArrayDiffs.js",
+  "main": "arrayDiffs.js",
   "scripts": {
     "test": "jest"
   },
