@@ -1,8 +1,8 @@
 {
-  "name": "groupArrays",
+  "name": "algosArrayDiffs",
   "version": "1.0.0",
   "description": "",
-  "main": "groupArrays.js",
+  "main": "arrayDiffs.js",
   "scripts": {
     "test": "jest"
   },
