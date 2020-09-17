@@ -2,16 +2,7 @@
 
 const arrayDiffs = (arr1, arr2) => {
   let uniqueNums = [];
-  /* for (let i = 0; i < arr1.length; i++) {
-    if (!arr2.includes(arr1[i])) {
-      uniqueNums.push(arr1[i]);
-    }
-  }
-  for (i = 0; i < arr2.length; i++) {
-    if (!arr1.includes(arr2[i])) {
-      uniqueNums.push(arr2[i]);
-    }
-  } */
+
   arr1.forEach((num) => {
     (arr2.includes(num)) ? null : uniqueNums.push(num);
   })
@@ -19,6 +10,7 @@ const arrayDiffs = (arr1, arr2) => {
   arr2.forEach((num) => {
     (arr1.includes(num)) ? null : uniqueNums.push(num);
   })
+
   return uniqueNums;
 };
 
