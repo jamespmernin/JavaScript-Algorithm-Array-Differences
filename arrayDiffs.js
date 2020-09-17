@@ -7,9 +7,9 @@ const arrayDiffs = (arr1, arr2) => {
       uniqueNums.push(arr1[i]);
     }
   }
-  for (let j = 0; j < arr2.length; j++) {
-    if (!arr1.includes(arr2[j])) {
-      uniqueNums.push(arr2[j]);
+  for (i = 0; i < arr2.length; i++) {
+    if (!arr1.includes(arr2[i])) {
+      uniqueNums.push(arr2[i]);
     }
   }
   return uniqueNums;
